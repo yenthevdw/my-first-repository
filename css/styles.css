@@ -1,0 +1,44 @@
+.my-class {
+    color: #FFFFFF;
+    background-color: #FF5A5A;
+    text-align: center;
+    padding: 0.5em;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    border-radius: 22px;
+    font-size: medium;
+}
+body {
+    background-image: url(../images/chuttersnap-9AqIdzEc9pY-unsplash.jpg);
+    background-size: cover;
+}
+body h1 {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px -2px #51B8D7;
+    font-size: xx-large;
+    text-decoration: underline;
+    letter-spacing: 15px;
+    color: #A7B8FF;
+
+}
+body p {
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 40px;
+    margin-left: 344px;
+    background-color: #ADD8E6;
+    border-radius: 22px;
+}
+
+body img {
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 22px;
+    width: 273px;
+    float: left;
+    clear: none;
+    margin-left: 56px;
+}
