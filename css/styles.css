@@ -43,7 +43,7 @@ header h1 {
     float: left;
     clear: none;
 	margin: 13px;
-    width: 300px;
+    width: 200px;
 }
 .introduction {
     border-top-right-radius: px;
@@ -67,16 +67,16 @@ footer a {
 .menu a:hover {
     color: #FF909A;
 } 
-.list-unstyled{ 
+.row-list-unstyled{ 
 	margin: 20px;
 	background-color: #6EBCD6;
  	border-radius: 22px;
 	padding: 10px;}
-.list-unstyled img {
+.row-list-unstyled img {
     border-radius: 22px;
 	width: 200px;
 }
-.list-unstyled .media {
+.row-list-unstyled .col {
 	margin: 0px 10px 10px 10px;
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 	color: white
