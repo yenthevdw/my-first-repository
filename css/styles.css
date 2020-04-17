@@ -10,7 +10,7 @@ margin: 0px;
     font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
     border-radius: 22px;
     font-size: medium;
-    margin: 0px 20px 0px 20px;
+    margin: auto;
 }
 body {
     background-image: url(../images/chuttersnap-9AqIdzEc9pY-unsplash.jpg);
@@ -48,8 +48,8 @@ header h1 {
 .introduction {
     border-top-right-radius: px;
 	font-family: "Montserrat";
-	margin: 10px 20px 0px 20px;
-	
+	margin: auto;
+	margin-top: 10px;
 }
 footer {
     text-align: center;
@@ -68,17 +68,27 @@ footer a {
     color: #FF909A;
 } 
 .row-list-unstyled{ 
-	margin: 20px;
 	background-color: #6EBCD6;
  	border-radius: 22px;
-	padding: 10px;}
+	padding: 10px;
+	text-align: center;
+}
 .row-list-unstyled img {
     border-radius: 22px;
 	width: 200px;
 }
-.row-list-unstyled .col {
+.row-list-unstyled .col-4 {
 	margin: 0px 10px 10px 10px;
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
-	color: white
+	color: white;
+	display: inline-block;
+	width: 250px;
+	vertical-align: top;
 }
+.container {
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+}
+
 
