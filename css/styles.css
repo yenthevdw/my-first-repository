@@ -2,48 +2,83 @@
 padding: 0px;
 margin: 0px;
 }
-.my-class {
+.welcome {
     color: #FFFFFF;
-    background-color: #FF5A5A;
+    background-color: #DC3545;
     text-align: center;
     padding: 0.5em;
     font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
     border-radius: 22px;
     font-size: medium;
+    margin: 0px 20px 0px 20px;
 }
 body {
     background-image: url(../images/chuttersnap-9AqIdzEc9pY-unsplash.jpg);
     background-size: cover;
 }
-body h1 {
+header h1 {
     text-align: center;
     text-shadow: 2px -2px #51B8D7;
     text-decoration: underline;
     letter-spacing: 15px;
 	color:lightblue; 
 	font-family: 'Lilita One', cursive;
+	fon-size: 80px; 
 
 }
-body p {
+.introduction p {
     font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
-    background-color: #ADD8E6;
+    background-color: #6EBCD6;
     border-radius: 22px;
+	padding: 5px 10px; 
 }
 
-body img {
+.introduction img {
     color: #FFFFFF;
     border-style: none;
     border-radius: 22px;
     float: left;
     clear: none;
-    margin-left: 13px;
-    margin-top: 13px;
-    width: 188px;
+	margin: 13px;
+    width: 300px;
 }
 .introduction {
     border-top-right-radius: px;
 	font-family: "Montserrat";
+	margin: 10px 20px 0px 20px;
+	
 }
+footer {
+    text-align: center;
+}
+footer a {
+	color: #6EBCD6;
+}
+.menu {
+    text-align: center;
+}
+.menu a{
+	color: white;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+.menu a:hover {
+    color: #FF909A;
+} 
+.list-unstyled{ 
+	margin: 20px;
+	background-color: #6EBCD6;
+ 	border-radius: 22px;
+	padding: 10px;}
+.list-unstyled img {
+    border-radius: 22px;
+	width: 200px;
+}
+.list-unstyled .media {
+	margin: 0px 10px 10px 10px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	color: white
+}
+
